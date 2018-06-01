@@ -4,7 +4,7 @@ This is a quick guide/study tool that will explore different types of data struc
 
 ## Prerequisites
 
-* Be sure to install jest globally, this can be done like so: `npm install -g jest`
+* Be sure to install jest globally, this can be done like so: `npm install -g jest` (Be sure to do this in your root directory)
 
 ## Author
 
