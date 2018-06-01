@@ -1,0 +1,19 @@
+{
+  "name": "datastructurepractice",
+  "version": "1.0.0",
+  "description": "A guide for various data structures. Primarily for usage in other projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbdoyle182/DataStructurePractice.git"
+  },
+  "author": "Daniel Doyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbdoyle182/DataStructurePractice/issues"
+  },
+  "homepage": "https://github.com/dbdoyle182/DataStructurePractice#readme"
+}
