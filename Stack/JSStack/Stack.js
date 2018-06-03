@@ -12,10 +12,11 @@ class Stack {
     pop () {
         return this.data.pop();
     }
-
+    // Returns the data on the top of the stack but does not remove
     peek () {
         return this.data[this.data.length - 1]
     }
 }
 
+// Exports our stack for usage in other applications
 module.exports = Stack;
