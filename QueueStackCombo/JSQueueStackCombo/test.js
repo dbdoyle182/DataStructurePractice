@@ -29,3 +29,13 @@ test('Order of elements is maintaned', () => {
     expect(queue.remove()).toEqual('Break');
     expect(queue.remove()).toEqual(undefined);
 });
+
+test('Peek returns, does not remove and is the first value', () => {
+    const queue = new Queue();
+    queue.add("Testing");
+    queue.add("ROCKS");
+    expect(queue.peek()).toEqual("Testing");
+    expect(queue.peek()).toEqual("Testing");
+    expect(queue.remove()).toEqual("Testing");
+    expect(queue.remove()).toEqual("ROCKS");
+});
