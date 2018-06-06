@@ -23,4 +23,18 @@ class Queue {
 
         return data;
     }
+
+    peek() {
+        while(this.first.peek()) {
+            this.second.push(this.first.pop());
+        }
+
+        const data = this.second.peek();
+
+        while(this.second.peek()) {
+            this.first.push(this.second.pop());
+        }
+
+        return data;
+    }
 }
