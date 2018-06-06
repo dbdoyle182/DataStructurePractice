@@ -37,4 +37,7 @@ class Queue {
 
         return data;
     }
+
 }
+
+export default Queue;
