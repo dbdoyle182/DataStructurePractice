@@ -5,8 +5,16 @@ test('Queue is a class', () => {
 });
 
 test('can add elements to a queue', () => {
-    const q = new Queue();
+    const queue = new Queue();
     expect(() => {
-      q.add(1);
+      queue.add("Banana");
     }).not.toThrow();
   });
+
+test('Can remove elements from a queue', () => {
+    const queue = new Queue();
+    expect(() => {
+        queue.add(1);
+        queue.remove();
+    }).not.toThrow();
+});
