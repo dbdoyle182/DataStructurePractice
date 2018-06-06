@@ -1,4 +1,4 @@
-import Stack from './Stack';
+const Stack = require('./Stack');
 
 class Queue {
     constructor() {
@@ -40,4 +40,4 @@ class Queue {
 
 }
 
-export default Queue;
+module.exports = Queue;
