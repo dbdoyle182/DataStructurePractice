@@ -16,3 +16,13 @@ describe('A Node', () => {
         expect(node.next).toEqual('b');
     });
 });
+
+describe('Insert First', () => {
+    test('appends a node to the start of the list', () => {
+        const list = new List();
+        list.insertFirst(1);
+        expect(list.head.data).toEqual(1);
+        list.insertFirst(2);
+        expect(list.head.data).toEqual(2);
+    });
+});
